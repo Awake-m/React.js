@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+.main{
+    height: 99vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-image: url("https://img.freepik.com/free-vector/blue-curve-background_53876-113112.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box1{
+    height: 300px;
+    width: 400px;
+    /* border: 1px solid black; */
+    margin-left: 40%;
+}
+input{
+    height: 30px;
+    width: 98%;
+    border-radius: 10px;
+}
+
+button {
+    align-items: center;
+    height: 40px;
+    margin-left: 30%;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-family: Phantomsans, sans-serif;
+    font-size: 18px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 3px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: all .3s;
+   }
+   
+   button:active,
+   button:hover {
+    outline: 0;
+   }
+   
+   button span {
+    background-color: rgb(5, 6, 45);
+    padding: 16px 24px;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+   }
+   
+   button:hover span {
+    background: none;
+   }
+   
+   button:active {
+    transform: scale(0.9);
+   }
+   .b1{
+    width: 100%;
+    height:100px;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+   }
+   .box2{
+    width: 60%;
+    height: 20px;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-between;
+   }  
+   .h1{
+    width: 45%;
+    height: 20px;
+    /* border: 1px solid; */
+   }
+   .h2{
+    width: 45%;
+    height: 70px;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-evenly;
+   }
+   
