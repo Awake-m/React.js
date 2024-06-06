@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.signup{
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+    margin-left: 800px;
+    margin-top: 150px;
+}
+.signup input{
+    height: 40px;
+    width: 98%;
+    border-radius: 10px;
+}
+.signup p{
+    cursor: pointer;
+    text-decoration: underline;
+    color: blue;
+}
+button{
+    background-color: black;
+    border: none;
+    color: white;
+    height: 40px;
+    width: 150px;
+}
+
+.login{
+    height: 340px;
+    width: 400px;
+    border: 1px solid black;
+    margin-left: 800px;
+    margin-top: 150px;
+}
+.login input{
+    height: 40px;
+    width: 98%;
+    border-radius: 10px;
+}
+.login p{
+    cursor: pointer;
+    
+    text-decoration: underline;
+    color: blue;
+}
